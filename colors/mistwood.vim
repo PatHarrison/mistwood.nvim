@@ -69,11 +69,11 @@ call s:HL('ErrorMsg', s:MW_Red, s:MW_Black, 'NONE', 'NONE', 'NONE')
 hi! link WinBarNC WinBar
 hi! link WinSeparator VertSplit
 call s:HL('Folded', s:MW_LightGrey, s:MW_DarkGrey, 'NONE', 'NONE', 'NONE')
-call s:HL('FoldColumn', s:MW_LightGrey, s:MW_DarkGrey, 'NONE', 'NONE', 'NONE')
-call s:HL('SignColumn', s:MW_LightGrey, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('FoldColumn', s:MW_LightGrey, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('SignColumn', s:MW_LightGrey, "NONE", 'NONE', 'NONE', 'NONE')
 call s:HL('IncSearch', s:MW_Black, s:MW_Magenta, 'NONE', 'NONE', 'NONE')
 hi! link Substitute Search
-call s:HL('LineNr', s:MW_LightGrey, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('LineNr', s:MW_LightGrey, "NONE", 'NONE', 'NONE', 'NONE')
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 call s:HL('CursorLineNr', s:MW_Blue, 'NONE')
@@ -84,7 +84,7 @@ call s:HL('ModeMsg', 'NONE', 'NONE', 'NONE', 'NONE', 'bold')
 hi! link MsgSeparator StatusLine
 call s:HL('MoreMsg', s:MW_Green, 'NONE', 'NONE', 'NONE', 'bold')
 call s:HL('NonText', s:MW_Green, 'NONE', 'NONE', 'NONE', 'bold')
-call s:HL('Normal', s:MW_White, s:MW_DarkGrey, 'NONE', 'NONE', 'NONE') " NORMAL
+call s:HL('Normal', s:MW_White, 'NONE', 'NONE', 'NONE', 'NONE') " NORMAL
 hi! link NormalFloat Pmenu
 call s:HL('FloatShadow', 'NONE', s:MW_Red, 'NONE', 'NONE', 'NONE')
 call s:HL('FloatShadowThrough', 'NONE', s:MW_Black, 'NONE', 'NONE', 'NONE')
