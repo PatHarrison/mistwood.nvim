@@ -240,7 +240,7 @@ hi! link DiagnosticFloatingWarning DiagnosticWarning
 hi! link DiagnosticSignOk DiagnosticOk
 hi! link DiagnosticVirtualTextOk DiagnosticOk
 
-call s:HL('LspBorderBG', s:MW_Red, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('LspBorderBG', s:MW_Red, 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('LspFloatWinNormal', s:MW_White, '#43492a', 'NONE', 'NONE', 'NONE')
 call s:HL('LspReferenceRead', s:MW_Green, 'NONE', '#fd9720', 'NONE', 'bold,undercurl')
 call s:HL('LspReferenceText', s:MW_White, '#43492a', '#fd9720', 'NONE', 'bold,undercurl')
@@ -358,7 +358,7 @@ hi! link NERDTreeExecFile String
 hi! link NERDTreeHelp Comment
 
 " Telescope
-call s:HL('TelescopeBorder', s:MW_LightGrey, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('TelescopeBorder', s:MW_LightGrey, 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeMultiIcon', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeMultiSelection', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeNormal', s:MW_LightGrey, 'NONE', 'NONE', 'NONE', 'NONE')
@@ -381,7 +381,7 @@ call s:HL('TelescopePreviewSocket', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopePreviewSticky', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopePreviewUser', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopePreviewWrite', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
-call s:HL('TelescopePromptBorder', s:MW_Yellow, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('TelescopePromptBorder', s:MW_Yellow, 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopePromptNormal', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsClass', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsComment', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
@@ -393,13 +393,13 @@ call s:HL('TelescopeResultsIdentifier', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsLineNr', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsMethod', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsNormal', s:MW_LightGrey, 'NONE', 'NONE', 'NONE', 'NONE')
-call s:HL('TelescopeResultsNumber', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
+call s:HL('TelescopeResultsNumber', s:MW_LightGrey, 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsOperator', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsSpecialComment', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsStruct', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeResultsVariable', 'NONE', 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeSelectionCaret', s:MW_White, s:MW_LightGrey, 'NONE', 'NONE', 'NONE')
-call s:HL('TelescopeTitle', s:MW_Green, s:MW_Black, 'NONE', 'NONE', 'NONE')
+call s:HL('TelescopeTitle', s:MW_Green, 'NONE', 'NONE', 'NONE', 'NONE')
 call s:HL('TelescopeSelection', s:MW_White, s:MW_LightGrey, 'NONE', 'NONE', 'NONE')
 hi! link TelescopeMatching Special
 hi! link TelescopePreviewBorder TelescopeBorder
